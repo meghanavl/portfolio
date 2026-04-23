@@ -81,10 +81,27 @@ My interests include:
 
 ---
 
-## ⚙️ Setup Instructions
+## Setup Instructions
 
 ```bash
 git clone https://github.com/meghanavl/portfolio.git
 cd portfolio
 npm install
 npm start
+```
+## Deployment
+
+This project is deployed using GitHub Pages.
+
+To deploy:
+
+npm run deploy
+
+---
+
+## Future Improvements
+
+Add blog section for cybersecurity topics
+Dark/light theme toggle
+More interactive animations
+Backend integration for contact form
