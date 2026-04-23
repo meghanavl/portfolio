@@ -101,7 +101,7 @@ npm run deploy
 
 ## Future Improvements
 
-Add blog section for cybersecurity topics
-Dark/light theme toggle
-More interactive animations
-Backend integration for contact form
+- Add blog section for cybersecurity topics
+- Dark/light theme toggle
+- More interactive animations
+- Backend integration for contact form
