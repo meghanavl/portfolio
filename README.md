@@ -1,6 +1,6 @@
 # Portfolio Website
 
-A modern personal portfolio built using **React.js**, showcasing my work, skills, and interests in **Cybersecurity and Web Development**.
+A modern personal portfolio built using **React.js**, showcasing my work, skills, and interests in **Cybersecurity**.
 
 🔗 Live Website: https://meghanavl.github.io/portfolio
 
@@ -50,23 +50,21 @@ My interests include:
 - Research Interests
 - Skills
 - Projects
-- Experience
-- Certifications & Achievements
 - Contact
 
 ---
 
 ## Projects Highlight
 
-### 🔹 Incident Response Management System
+### Incident Response Management System
 - Python-based decision support system for cybersecurity incidents
 - Tech: Python, Flask, REST API, NetworkX
 
-### 🔹 Emergency Response Web App
+### Emergency Response Web App
 - SOS-trigger based responsive application
 - Tech: HTML, CSS, JavaScript, React Native
 
-### 🔹 Online Survey Web Application
+### Online Survey Web Application
 - Full-stack system with analytics dashboard
 - Tech: HTML, CSS, JavaScript, Node.js
 
@@ -74,10 +72,10 @@ My interests include:
 
 ## Contact
 
-- 📧 Email: vaddamani.meghana1@gmail.com  
-- 🎓 College Email: se23ucse103@mahindrauniversity.edu.in  
-- 💻 GitHub: https://github.com/meghanavl  
-- 🔗 LinkedIn: https://linkedin.com/in/meghanavl  
+- Email: vaddamani.meghana1@gmail.com  
+- College Email: se23ucse103@mahindrauniversity.edu.in  
+- GitHub: https://github.com/meghanavl  
+- LinkedIn: https://linkedin.com/in/meghanavl  
 
 ---
 
@@ -101,7 +99,6 @@ npm run deploy
 
 ## Future Improvements
 
-- Add blog section for cybersecurity topics
 - Dark/light theme toggle
 - More interactive animations
 - Backend integration for contact form
