@@ -102,3 +102,4 @@ npm run deploy
 - Dark/light theme toggle
 - More interactive animations
 - Backend integration for contact form
+- Mobile Layout
