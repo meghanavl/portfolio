@@ -11,7 +11,7 @@ function Home() {
         <div className="hero-text">
           <SubtleGlitchText text="Lakshmi Meghana Vaddamani" />
           <p className="usp">
-            I’m driven to understand how systems are exploited - and how to build them so they aren’t.
+            I’m driven to understand how systems are exploited — and how to build them so they aren’t.
           </p>
           <div className="social-icons">
       <a href="https://github.com/meghanavl" target="_blank" rel="noreferrer">
@@ -57,8 +57,6 @@ function Home() {
           <span>Cloud Security</span>
           <span>Network Security</span>
           <span>Security Operations (SOC)</span>
-          <span>Digital Forensics</span>
-          <span>Vulnerability Assessment</span>
         </div>
 </div>
 
@@ -72,8 +70,7 @@ function Home() {
     <div className="skill-card">
       <h3>Core Concepts</h3>
       <div className="tags">
-        <span>Database Management</span>
-        <span>Information Security</span>
+        <span>DBMS</span>
         <span>Operating Systems</span>
         <span>Computer Networks</span>
       </div>
@@ -85,9 +82,7 @@ function Home() {
       <div className="tags">
         <span>Python</span>
         <span>C</span>
-        <span>JavaScript</span>
         <span>PowerShell</span>
-        <span>MySQL</span>
       </div>
     </div>
 
@@ -106,22 +101,10 @@ function Home() {
     <div className="skill-card">
       <h3>Tools & Platforms</h3>
       <div className="tags">
+        <span>MySQL</span>
         <span>GitHub</span>
-        <span>Git</span>
+        <span>Azure</span>
         <span>MATLAB</span>
-      </div>
-    </div>
-
-    {/* Security Tools */}
-    <div className="skill-card">
-      <h3>Security Tools</h3>
-      <div className="tags">
-        <span>Nmap</span>
-        <span>Wireshark</span>
-        <span>Metasploit</span>
-        <span>Kali Linux</span>
-        <span>Microsoft Azure</span>
-        <span>Microsoft Sentinel</span>
       </div>
     </div>
 
@@ -130,13 +113,23 @@ function Home() {
 
       {/* PROJECTS */}
       <div id="projects" className="section">
-        <h2>Projects</h2>
+  <h2>Projects</h2>
 
-        <div className="project-grid">
-        {/* Project 1 */}
-        <div className="card">
+  <div className="project-grid">
+
+    {/* Project 1 */}
+    <a
+      href="https://github.com/meghanavl/Incident-Response-Management-System"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="card-link"
+    >
+      <div className="card">
         <h3>Incident Response Management System</h3>
-        <p>Decision support system for analyzing and managing cybersecurity incidents.</p>
+
+        <p>
+          Decision support system for analyzing and managing cybersecurity incidents.
+        </p>
 
         <div className="tags">
           <span>Python</span>
@@ -144,20 +137,22 @@ function Home() {
           <span>REST API</span>
           <span>NetworkX</span>
         </div>
-
-        <div className="project-actions">
-          <a
-            href="https://github.com/meghanavl/Incident-Response-Management-System"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="github-btn"> View on GitHub </a>
-        </div>
       </div>
+    </a>
 
-      {/* Project 2 */}
+    {/* Project 2 */}
+    <a
+      href="https://github.com/Sahithi3205/Sahaaya"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="card-link"
+    >
       <div className="card">
-        <h3>Senior Citizens Digital Services App</h3>
-        <p>Voice-enabled digital assistant to help senior citizens easily access essential services and reminders.</p>
+        <h3>Emergency Response Web App</h3>
+
+        <p>
+          Responsive application with SOS trigger functionality and secure UI design.
+        </p>
 
         <div className="tags">
           <span>HTML</span>
@@ -165,60 +160,22 @@ function Home() {
           <span>JavaScript</span>
           <span>React Native</span>
         </div>
-        <div className="project-actions">
-          <a href="https://github.com/Sahithi3205/Sahaaya"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="github-btn"> View on GitHub </a> 
-        </div>
       </div>
+    </a>
 
     {/* Project 3 */}
-      <div className="card">
-        <h3>Portfolio Website</h3>
-        <p>Personal portfolio showcasing cybersecurity interests, technical skills, projects, experience, and achievements through a modern React-based interface.</p>
-
-        <div className="tags">
-          <span>HTML</span>
-          <span>CSS</span>
-          <span>JavaScript</span>
-          <span>React.js</span>
-          <span>Github</span>
-        </div>
-
-        <div classname= "project-actions">
-          <a href="https://github.com/meghanavl/portfolio"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="github-btn"> View on Github </a>
-        </div>
-      </div>
-
-      {/* Project 3 */}
-      <div className="card">
-          <h3>E- Commerce Product Catalog</h3>
-          <p>*description here*</p>
-
-          <div className="tags">
-            <span>HTML</span>
-            <span>CSS</span>
-            <span>JavaScript</span>
-            <span>React.js</span>
-            <span>Github</span>
-          </div>
-
-          <div classname= "project-actions">
-            <a href="https://github.com/meghanavl/E-Commerce-Product-Catalog"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="github-btn"> View on Github </a>
-          </div>
-      </div>
-
-    {/* Project 4 */}
+    <a
+      href="https://github.com/meghanavl/student-survey"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="card-link"
+    >
       <div className="card">
         <h3>Online Survey Web App</h3>
-        <p>Full-stack survey system with analytics dashboard and visualization. </p>
+
+        <p>
+          Full-stack survey system with analytics dashboard and visualization.
+        </p>
 
         <div className="tags">
           <span>HTML</span>
@@ -226,17 +183,11 @@ function Home() {
           <span>JavaScript</span>
           <span>Node.js</span>
         </div>
-        <div>
-          <a
-            href="https://github.com/meghanavl/student-survey"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="github-btn">View on Github</a>
-        </div>
       </div>
+    </a>
 
-    </div>
   </div>
+    </div>
 
       {/* CONTACT */}
       <div id="contact" className="section contact-section">

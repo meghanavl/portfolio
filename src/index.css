@@ -302,6 +302,7 @@ p {
     flex-wrap: wrap;
     gap: 12px;
   }
+<<<<<<< HEAD
 }
 
 .project-actions {
@@ -327,4 +328,6 @@ p {
   background: #3b82f6;
   color: #fff;
   box-shadow: 0 0 12px rgba(59,130,246,0.5);
+=======
+>>>>>>> c03625099fdaf33f4e889ec98832b930e736fba0
 }
