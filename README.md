@@ -10,7 +10,7 @@ A modern personal portfolio built using **React.js**, showcasing my work, skills
 
 Hi, I’m **Lakshmi Meghana Vaddamani**, a Computer Science student at Mahindra University.
 
-I’m driven to understand how systems are exploited — and how to build them so they aren’t.
+I’m driven to understand how systems are exploited - and how to build them so they aren’t.
 
 My interests include:
 - Cybersecurity
